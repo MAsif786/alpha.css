@@ -1,0 +1,1546 @@
+.alpha{
+
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+
+}
+
+.string.slower .alpha span,
+.alpha.slower,
+.alpha.slower span{
+	animation-duration: 5s !important;
+}
+
+.string.slow .alpha span,
+.alpha.slow,
+.alpha.slow span{
+	animation-duration: 4s !important;
+}
+
+.string.normal .alpha span,
+.alpha.normal,
+.alpha.normal span{
+	animation-duration: 3s !important;
+}
+
+.string.fast .alpha span,
+.alpha.fast,
+.alpha.fast span{
+	animation-duration: 2s !important;
+}
+
+.string.faster .alpha span,
+.alpha.faster,
+.alpha.faster span{
+	animation-duration: 1s !important;
+}
+
+.string{
+
+	width: 100%;
+}
+
+.string .block{
+
+	height: 40px;
+	width: 40px;
+	margin-left: 1%;
+	float: left;
+
+}
+
+
+.alpha > span {
+
+	position: absolute;
+
+	top: 50%;
+	
+	width: 100%;
+	height: 4px;
+
+
+	animation-duration: 3s !important;
+	animation-timing-function: linear !important;
+
+}
+
+
+
+/*------------------------------
+------------Styles------------
+------------------------------
+*/
+
+.string.style1 .alpha > span,
+.alpha.style1 > span{
+
+	border-top-left-radius: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------
+------------COlORs------------
+------------------------------
+*/
+
+.string.green .alpha > span,
+.alpha.green > span,
+.alpha > span.green
+{
+
+	background-color: green !important;
+}
+
+.string.yellow .alpha > span,
+.alpha.yellow > span,
+.alpha > span.yellow
+{
+
+	background-color: yellow !important;
+}
+
+
+.string.pink .alpha > span,
+.alpha.pink > span,
+.alpha > span.pink
+{
+
+	background-color: pink !important;
+}
+
+.string.black .alpha > span,
+.alpha.black > span,
+.alpha > span.black
+{
+
+	background-color: black !important;
+}
+
+.string.blue .alpha > span,
+.alpha.blue > span,
+.alpha > span.blue
+{
+
+	background-color: blue !important;
+}
+
+.string.red .alpha > span,
+.alpha.red > span,
+.alpha > span.red
+{
+
+	background-color: red !important;
+}
+
+.string.white .alpha > span,
+.alpha.white > span,
+.alpha > span.white
+{
+
+	background-color: white !important;
+}
+
+
+
+.string.lighter .alpha span,
+.alpha.lighter span{
+
+	height: 2px !important;
+
+}
+
+
+.string.light .alpha span,
+.alpha.light span{
+
+	height: 3px !important;
+
+}
+
+
+.string.normal .alpha span,
+.alpha.normal span{
+
+	height: 4px !important;
+
+}
+
+
+.string.bold .alpha span,
+.alpha.bold span{
+
+	height: 6px !important;
+
+}
+
+
+.string.bolder .alpha span,
+.alpha.bolder span{
+
+	height: 10px !important;
+
+}
+
+.string.fadeIn .alpha span,
+.alpha.fadeIn span{
+	
+	animation: fadeIn;
+}
+
+
+.string.rotate-r .alpha span,
+.alpha.rotate-r span{
+
+	animation: rotate-r;
+}
+
+
+.string.rotate-l .alpha span,
+.alpha.rotate-l span{
+
+	animation: rotate-l;
+}
+
+
+.string.vr-rotate-r .alpha span,
+.alpha.vr-rotate-r span{
+
+	animation: vr-rotate-r;
+}
+
+
+.string.vr-rotate-l .alpha span,
+.alpha.vr-rotate-l span{
+
+	animation: vr-rotate-l;
+}
+
+
+.string.chinies .alpha span,
+.alpha.chinies span{
+
+	animation-name: chinies;
+
+}
+
+
+.string.pulse .alpha span,
+.alpha.pulse span{
+
+	animation-name: pulse;
+	animation-iteration-count: infinite !important;
+
+}
+
+
+.string.slice-r .alpha span,
+.alpha.slice-r span{
+
+	animation-name: slice-r;
+
+}
+
+
+.string.slice-l .alpha span,
+.alpha.slice-l span{
+
+	animation-name: slice-l;
+
+}
+
+
+.string.rain .alpha span,
+.alpha.rain span{
+
+	animation-name: rain;
+
+}
+
+
+.string.rain-rev .alpha span,
+.alpha.rain-rev span{
+
+	animation-name: rain-rev;
+	animation-delay: 2s;
+
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: .2;
+	}
+}
+
+@keyframes rotate-r{
+	0%{
+		margin: 0; width: 0; transform: rotate(360deg);
+	}
+	40%{
+		margin: 0;	width: 100%; transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate-l{
+	0%{
+		margin: 0; width: 0; transform: rotate(-360deg);
+	}
+	40%{
+		margin: 0; width: 100%; transform: rotate(-360deg);
+	}
+}
+
+@keyframes vr-rotate-r{
+	0%{
+		margin: 0; width: 0; transform: rotate(270deg);
+	}
+	40%{
+		margin: 0;	width: 100%; transform: rotate(270deg);
+	}
+}
+
+@keyframes vr-rotate-l{
+	0%{
+		margin: 0; width: 0; transform: rotate(-270deg);
+	}
+	40%{
+		margin: 0; width: 100%; transform: rotate(-270deg);
+	}
+}
+
+
+@keyframes tile{
+	0%{
+		width: 0;
+	}
+}
+
+@keyframes chinies{
+	0%{
+		margin: 0; width: 0;
+	}
+	50%{
+		margin: 0; width: 100%;
+	}	
+	80%{
+		margin: 0; width: 50%;
+	}
+}
+
+@keyframes pulse{
+
+	50%{
+		width: 60%;
+	}
+}
+
+@keyframes slice-l{
+
+	0%{
+		margin: 0; width: 0; transform: rotate(45deg);
+	}
+	30%{
+		margin: 0; width: 100%; transform: rotate(45deg);
+	}
+	60%{
+		width: 100%; transform: rotate(45deg);
+	}
+}
+
+@keyframes slice-r{
+
+	0%{
+		margin: 0; width: 0; transform: rotate(135deg);
+	}
+	30%{
+		margin: 0; width: 100%; transform: rotate(135deg);
+	}
+	60%{
+		width: 100%; transform: rotate(135deg);
+	}
+}
+
+@keyframes rain{
+
+	0%{
+		margin-top: -300%; width: 10%; background-color: transparent; transform: rotate(90deg);
+	}
+	70%{
+		width: 10%; margin-top: 0%;
+	}
+
+}
+
+@keyframes rain-rev{
+
+	20%{
+		width: 10%; margin-top: 0%;
+	}
+	100%{
+		margin-top: -300%; width: 10%; background-color: transparent; transform: rotate(90deg);
+	}
+
+}
+
+
+@keyframes rr{
+
+	0%{
+		width: 0%; margin-top: 0%; transform: rotate(180deg);
+	}
+	50%{
+		width: 100%; margin-top: 0%; transform: rotate(180deg);
+	}
+
+}
+
+
+
+.alpha.x0,
+.string.x0 .alpha,
+.string.x0 .block 
+{
+	width: 20px;
+	height: 20px;
+}
+
+.alpha.x1,
+.string.x1 .alpha,
+.string.x1 .block 
+{
+	width: 40px;
+	height: 40px;
+}
+
+.alpha.x2,
+.string.x2 .alpha,
+.string.x2 .block 
+{
+
+	width: 60px;
+	height: 60px;
+}
+
+.alpha.x3,
+.string.x3 .alpha,
+.string.x3 .block 
+{
+
+	width: 80px;
+	height: 80px;
+}
+
+.alpha.x4,
+.string.x4 .alpha,
+.string.x4 .block 
+{
+
+	width: 100px;
+	height: 100px;
+}
+
+.alpha.x5,
+.string.x5 .alpha,
+.string.x5 .block 
+{
+
+	width: 120px;
+	height: 120px;
+}
+
+
+.alpha.x6,
+.string.x6 .alpha,
+.string.x6 .block 
+{
+
+	width: 140px;
+	height: 140px;
+}
+
+.alpha.x7,
+.string.x7 .alpha,
+.string.x7 .block 
+{
+
+	width: 160px;
+	height: 160px;
+}
+
+.alpha.x8,
+.string.x8 .alpha,
+.string.x8 .block 
+{
+
+	width: 180px;
+	height: 180px;
+}
+
+.alpha.x9,
+.string.x9 .alpha,
+.string.x9 .block 
+{
+
+	width: 200px;
+	height: 200px;
+}
+
+.alpha.x10,
+.string.x10 .alpha,
+.string.x10 .block 
+{
+
+	width: 220px;
+	height: 220px;
+}
+
+.alpha.x11,
+.string.x11 .alpha,
+.string.x11 .block 
+{
+
+	width: 240px;
+	height: 240px;
+}
+
+.alpha.x12,
+.string.x12 .alpha,
+.string.x12 .block 
+{
+
+	width: 260px;
+	height: 260px;
+}
+
+.alpha.loop,
+.alpha.loop span{
+
+	animation-iteration-count: infinite !important;
+	animation-direction: alternate-reverse;
+
+}
+
+.alpha > span:nth-child(1){
+	
+	background-color: green;
+
+}
+
+.alpha > span:nth-child(2){
+	
+	background-color: blue;
+
+}
+
+
+.alpha > span:nth-child(3){
+	
+	background-color: red;
+
+}
+
+.alpha > span:nth-child(4){
+	
+	background-color: green;
+
+}
+
+.alpha > span:nth-child(5){
+	
+	background-color: blue;
+
+}
+
+.alpha > span:last-child{
+	
+	background-color: black;
+
+}
+
+
+.alpha.spinner{
+
+	
+	transform-origin: top center;
+
+	animation: spinner;
+	
+}
+
+
+
+@keyframes spinner{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+
+.alpha.spinner > span:nth-child(1){
+
+	transform: rotate(125deg);
+
+}
+
+.alpha.spinner > span:nth-child(2){
+
+	transform: rotate(0deg);
+}
+
+.alpha.spinner > span:nth-child(3){
+
+	transform: rotate(55deg);
+
+}
+
+
+/* CSS for animated "A" */
+
+
+.alpha.alpha-A > span:nth-child(1){
+
+	margin-left: -45%;
+	margin-top: 10%;
+
+	transform: rotate(95deg);
+}
+
+.alpha.alpha-A > span:nth-child(2){
+
+	margin-top: -5%;
+	margin-left: 45%;
+
+	transform: rotate(95deg);
+	
+}
+
+.alpha.alpha-A > span:nth-child(3){
+
+	margin-top: -45%;
+
+	transform: rotate(-10deg);
+}
+
+.alpha.alpha-A > span:nth-child(4){
+
+	margin-top: 5%;
+
+	transform: rotate(-10deg);
+}
+
+
+
+
+/* CSS for animated "B" */
+
+
+
+.alpha.alpha-B span:nth-child(1){
+
+	margin-left: 30%;
+	margin-top: -50%;
+
+	transform: rotate(-10deg);
+}
+
+.alpha.alpha-B > span:nth-child(2){
+	
+	margin-left: 100%;
+	margin-top: -35%;
+
+	width: 50%;
+
+	transform: rotate(95deg);
+	
+}
+
+
+.alpha.alpha-B span:nth-child(3){
+
+	margin-left: 50%;
+	margin-top: -10%;
+
+	transform: rotate(-10deg);
+}
+
+
+.alpha.alpha-B > span:nth-child(4){
+
+	margin-top: 40%;
+	margin-left: 45%;
+
+	transform: rotate(-10deg);
+}
+
+
+.alpha.alpha-B > span:nth-child(5){
+
+	margin-left: 120%;
+	margin-top: 6%;
+
+	width: 55%;
+
+	transform: rotate(95deg);
+}
+
+
+.alpha.alpha-B > span:nth-child(6){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+
+}
+
+
+
+
+/* CSS for animated "C" */
+
+
+.alpha.alpha-C > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 30%;
+	transform: rotate(-10deg);
+}
+
+.alpha.alpha-C > span:nth-child(2){
+
+	
+	margin-top: 40%;
+	margin-left: 30%;
+	transform: rotate(-10deg);
+	
+}
+
+.alpha.alpha-C > span:nth-child(3){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+
+}
+
+
+/* CSS for animated "D" */
+
+
+.alpha.alpha-D > span:nth-child(1){
+
+	margin-top: -55%;
+	margin-left: 32%;
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-D > span:nth-child(2){
+
+	margin-top: 50%;
+	margin-left: 15%;
+	transform: rotate(-7deg);
+
+	
+}
+
+.alpha.alpha-D > span:nth-child(3){
+
+	margin-left: 65%;
+	margin-top: -10%;
+
+	width: 115%;
+
+	transform: rotate(100deg);
+
+}
+
+.alpha.alpha-D > span:nth-child(4){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+}
+
+
+/* CSS for animated "E" */
+
+
+.alpha.alpha-E > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 30%;
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-E > span:nth-child(2){
+
+	margin-top: 40%;
+	margin-left: 30%;
+	transform: rotate(-10deg);
+
+	
+}
+
+.alpha.alpha-E > span:nth-child(3){
+
+	background-color: red;
+
+	margin-left: 30%;
+
+	width: 80%;
+
+	transform: rotate(-10deg);
+
+	z-index: -1;
+
+}
+
+.alpha.alpha-E > span:nth-child(4){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+}
+
+/* CSS for animated "F" */
+
+
+.alpha.alpha-F > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 30%;	
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-F > span:nth-child(2){
+
+	margin-left: 40%;
+
+	width: 70%;
+
+	transform: rotate(-10deg);
+
+	z-index: -1;
+
+}
+
+.alpha.alpha-F > span:nth-child(3){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+}
+
+/* CSS for animated "G" */
+
+
+.alpha.alpha-G > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 30%;	
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-G > span:nth-child(2){
+
+	margin-top: 5%;
+	margin-left: 83%;
+
+	width: 50%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-G > span:nth-child(3){
+
+	background-color: red;
+
+	margin-top: 35%;
+	margin-left: 30%;
+
+	transform: rotate(-10deg);
+
+	z-index: -1;
+}
+
+.alpha.alpha-G > span:nth-child(4){
+
+	margin-top: 30%;
+	margin-left: 98%;
+
+	width: 60%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-G > span:nth-child(5){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+}
+
+
+/* CSS for animated "H" */
+
+
+.alpha.alpha-H > span:nth-child(1){
+
+	margin-left: -25%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-H > span:nth-child(2){
+
+	margin-left: 25%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-H > span:nth-child(3){
+
+	margin-top: 5%;
+
+	transform: rotate(-10deg);
+
+}
+
+
+/* CSS for animated "I" */
+
+
+.alpha.alpha-I > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 30%;
+
+	width: 50%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-I > span:nth-child(2){
+
+	margin-top: 50%;
+	margin-left: 20%;
+
+	width: 50%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-I > span:nth-child(3){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+
+}
+
+
+/* CSS for animated "J" */
+
+
+.alpha.alpha-J > span:nth-child(1){
+
+	margin-top: -48%;
+	margin-left: 15%;
+
+	width: 70%;
+
+	transform: rotate(-10deg);
+
+	z-index: 2;
+
+}
+
+.alpha.alpha-J > span:nth-child(2){
+
+	margin-top: 55%;
+	margin-left: -40%;
+
+
+	transform: rotate(-10deg);
+
+
+}
+
+.alpha.alpha-J > span:nth-child(3){
+
+	margin-top: 48%;
+	margin-left: -45%;
+
+	width: 70%;
+
+	transform: rotate(153deg);
+
+}
+
+.alpha.alpha-J > span:nth-child(4){
+
+
+
+	transform: rotate(95deg);
+
+
+}
+
+
+/* CSS for animated "K" */
+
+
+.alpha.alpha-K > span:nth-child(1){
+
+	margin-top: -20%;
+	margin-left: 19%;
+
+	transform: rotate(-50deg);
+
+}
+
+.alpha.alpha-K > span:nth-child(2){
+
+	margin-top: 20%;
+	margin-left: 19%;
+
+	transform: rotate(50deg);
+
+
+}
+
+.alpha.alpha-K > span:nth-child(3){
+
+	transform: rotate(95deg);
+
+}
+
+
+/* CSS for animated "L" */
+
+
+.alpha.alpha-L > span:nth-child(1){
+
+	margin-top: 40%;
+	margin-left: 35%;
+
+	width: 70%;
+
+	transform: rotate(-10deg);
+
+}
+
+
+.alpha.alpha-L > span:nth-child(2){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+
+}
+
+/* CSS for animated "M" */
+
+
+.alpha.alpha-M > span:nth-child(1){
+
+	margin-left: -53%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-M > span:nth-child(2){
+
+	margin-left: 54%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-M > span:nth-child(3){
+
+	margin-top: -48%;
+
+	transform-origin: left;
+	transform: rotate(40deg);
+
+	z-index: -1;
+}
+
+.alpha.alpha-M > span:nth-child(4){
+
+	margin-top: -48%;
+	margin-left: 10%;
+
+	transform-origin: right;
+	transform: rotate(-40deg);
+
+	z-index: -1;
+
+}
+
+/* CSS for animated "N" */
+
+
+.alpha.alpha-N > span:nth-child(1){
+
+	margin-left: -30%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-N > span:nth-child(2){
+
+	margin-left: 30%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-N > span:nth-child(3){
+	
+	margin-left: -5%;
+
+	width: 110%;
+
+	transform: rotate(60deg);
+
+	z-index: -1;
+}
+
+
+/* CSS for animated "O" */
+
+
+.alpha.alpha-O > span:nth-child(1){
+
+	margin-left: -45%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-O > span:nth-child(2){
+
+	margin-left: 45%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-O > span:nth-child(3){
+
+	margin-top: -45%;
+
+	transform: rotate(-5deg);
+
+}
+
+.alpha.alpha-O > span:nth-child(4){
+
+	margin-top: 45%;
+
+	transform: rotate(-5deg);
+
+}
+
+
+/* CSS for animated "P" */
+
+
+.alpha.alpha-P > span:nth-child(1){
+
+	margin-left: -45%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-P > span:nth-child(2){
+
+	margin-left: 60%;
+	margin-top: -35%;
+
+	width: 65%;
+
+	transform: rotate(95deg);
+
+	z-index: 1;
+
+}
+
+.alpha.alpha-P > span:nth-child(3){
+
+	margin-top: -55%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-P > span:nth-child(4){
+	
+	margin-left: -10%;
+
+	transform: rotate(-10deg);
+
+}
+
+
+/* CSS for animated "Q" */
+
+
+.alpha.alpha-Q > span:nth-child(1){
+
+	margin-left: -45%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-Q > span:nth-child(2){
+
+	margin-left: 45%;
+	margin-top: -15%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-Q > span:nth-child(3){
+
+	margin-top: -50%;
+
+	transform: rotate(-5deg);
+
+}
+
+.alpha.alpha-Q > span:nth-child(4){
+
+	margin-top: 40%;
+	margin-left: -10%;
+
+	transform: rotate(-5deg);
+
+}
+
+.alpha.alpha-Q > span:nth-child(5){
+
+	width: 50%;
+
+	margin-top: 50%;
+	margin-left: 80%;
+
+	transform: rotate(45deg);
+
+}
+
+
+/* CSS for animated "R" */
+
+
+.alpha.alpha-R > span:nth-child(1){
+	
+	margin-top: 6%;
+	margin-left: 2%;
+
+	transform-origin: left;
+	transform: rotate(25deg);
+
+
+}
+
+.alpha.alpha-R > span:nth-child(2){
+	
+	margin-left: -10%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-R > span:nth-child(3){
+
+	margin-top: -55%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-R > span:nth-child(4){
+
+	margin-left: 60%;
+	margin-top: -35%;
+
+	width: 65%;
+
+	transform: rotate(95deg);
+
+	z-index: 1;
+
+}
+
+.alpha.alpha-R > span:nth-child(5){
+
+	margin-left: -45%;
+
+	transform: rotate(95deg);
+
+}
+
+/* CSS for animated "S" */
+
+
+.alpha.alpha-S > span:nth-child(1){
+	
+	margin-top: 50%;
+	margin-left: -10%;
+
+	transform: rotate(-10deg);
+
+
+}
+
+.alpha.alpha-S > span:nth-child(2){
+
+	margin-left: 65%;
+	margin-top: 16%;
+
+	width: 50%;
+
+	transform: rotate(95deg);
+
+	z-index: 1;
+
+}
+
+.alpha.alpha-S > span:nth-child(3){
+	
+	margin-left: -5%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-S > span:nth-child(4){
+
+	margin-top: -50%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-S > span:nth-child(5){
+
+	margin-left: -25%;
+	margin-top: -15%;
+
+	width: 50%;
+
+	transform: rotate(95deg);
+
+}
+
+
+/* CSS for animated "T" */
+
+
+.alpha.alpha-T > span:nth-child(1){
+
+	margin-top: -50%;
+	margin-left: 5%;
+
+	transform: rotate(-10deg);
+
+}
+
+.alpha.alpha-T > span:nth-child(2){
+
+	transform: rotate(95deg);
+
+	z-index: -1;
+
+}
+
+
+/* CSS for animated "U" */
+
+
+.alpha.alpha-U > span:nth-child(1){
+
+	margin-left: -40%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-U > span:nth-child(2){
+
+	margin-left: 45%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-U > span:nth-child(3){
+
+	margin-top: 45%;
+
+	transform: rotate(-5deg);
+
+}
+
+
+/* CSS for animated "V" */
+
+
+.alpha.alpha-V > span:nth-child(1){
+
+	margin-left: -15%;
+
+	transform: rotate(-110deg);
+
+}
+
+.alpha.alpha-V > span:nth-child(2){
+
+	margin-left: 15%;
+
+	transform: rotate(110deg);
+
+}
+
+/* CSS for animated "W" */
+
+
+.alpha.alpha-W > span:nth-child(1){
+
+	margin-left: -53%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-W > span:nth-child(2){
+
+	margin-left: 54%;
+
+	transform: rotate(95deg);
+
+}
+
+.alpha.alpha-W > span:nth-child(3){
+
+	margin-top: 48%;
+	margin-left: -10%;
+
+	transform-origin: left;
+	transform: rotate(-40deg);
+
+	z-index: -1;
+}
+
+.alpha.alpha-W > span:nth-child(4){
+
+	margin-top: 48%;
+
+	transform-origin: right;
+	transform: rotate(40deg);
+
+	z-index: -1;
+
+}
+
+
+/* CSS for animated "X" */
+
+
+.alpha.alpha-X > span:nth-child(1){
+
+	transform: rotate(130deg);
+
+}
+
+.alpha.alpha-X > span:nth-child(2){
+
+	transform: rotate(-130deg);
+
+}
+
+
+/* CSS for animated "Y" */
+
+
+.alpha.alpha-Y > span:nth-child(1){
+
+	margin-top: -20%;
+
+	width: 70%;
+
+	transform: rotate(-130deg);
+
+}
+
+.alpha.alpha-Y > span:nth-child(2){
+
+	transform: rotate(130deg);
+
+}
+
+/* CSS for animated "Z" */
+
+
+.alpha.alpha-Z > span:nth-child(1){
+	
+	margin-top: 30%;
+	margin-left: 15%;
+
+	width: 80%;
+
+	transform: rotate(-10deg);
+
+
+}
+
+
+.alpha.alpha-Z > span:nth-child(2){
+	
+	transform: rotate(-50deg);
+
+}
+
+.alpha.alpha-Z > span:nth-child(3){
+
+	margin-top: -30%;
+	margin-left: 5%;
+
+	width: 80%;
+
+	transform: rotate(-10deg);
+
+}
