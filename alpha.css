@@ -80,6 +80,30 @@
 	border-top-left-radius: 100%;
 
 }
+.string.style2 .alpha > span,
+.alpha.style2 > span{
+
+	border-top-right-radius: 100%;
+
+}
+.string.style3 .alpha > span,
+.alpha.style3 > span{
+
+	border-bottom-left-radius: 100%;
+
+}
+.string.style4 .alpha > span,
+.alpha.style4 > span{
+
+	border-bottom-left-radius: 100%;
+
+}
+.string.style5 .alpha > span,
+.alpha.style5 > span{
+
+	border-radius: 100%;
+
+}
 
 
 
