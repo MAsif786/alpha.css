@@ -273,6 +273,7 @@
 
 	animation-name: rain-rev;
 	animation-delay: 2s;
+	animation-fill-mode: forwards;
 
 }
 
