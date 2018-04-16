@@ -297,6 +297,7 @@
 
 	animation-name: rain-rev;
 	animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 
 }
